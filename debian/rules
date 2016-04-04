@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+#export DH_VERBOSE=1
+export PYBUILD_NAME=jupyter-core
+
+%:
+	dh $@ --with python2,python3,sphinxdoc --buildsystem=pybuild
+
+override_dh_auto_test:
+	@echo "Not time for that now"
+

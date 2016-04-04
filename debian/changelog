@@ -1,0 +1,5 @@
+jupyter-core (4.1.0-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- David Douard <david.douard@logilab.fr>  Mon, 04 Apr 2016 22:46:34 +0200
